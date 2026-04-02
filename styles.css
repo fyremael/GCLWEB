@@ -236,9 +236,11 @@ h1 {
 
 .hero-text,
 .statement-copy p,
+.context-intro,
 .capability-card p,
 .timeline-grid p,
 .sector-card p,
+.context-card p,
 .contact-copy p,
 .contact-note,
 .footer,
@@ -391,6 +393,7 @@ h1 {
 }
 
 .capabilities,
+.context,
 .sectors,
 .process {
   display: grid;
@@ -411,6 +414,7 @@ h1 {
 }
 
 .capability-grid,
+.context-grid,
 .sectors-grid,
 .timeline-grid {
   display: grid;
@@ -421,7 +425,12 @@ h1 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.context-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .capability-card,
+.context-card,
 .sector-card,
 .timeline-grid article,
 .contact-card {
@@ -434,11 +443,23 @@ h1 {
 }
 
 .capability-card h3,
+.context-card h3,
 .timeline-grid h3,
 .sector-card h3 {
   font-family: "Sora", "IBM Plex Sans", sans-serif;
   font-size: 1.24rem;
   line-height: 1.15;
+}
+
+.context-card {
+  display: grid;
+  gap: 0.8rem;
+  min-height: 14rem;
+  border: 1px solid var(--line);
+  border-radius: 1.5rem;
+  background:
+    linear-gradient(180deg, rgba(53, 88, 106, 0.04), rgba(255, 255, 255, 0.56));
+  box-shadow: 0 10px 24px rgba(32, 55, 70, 0.04);
 }
 
 .sectors-grid {
@@ -522,6 +543,7 @@ h1 {
   .statement-grid,
   .contact-panel,
   .capability-grid,
+  .context-grid,
   .sectors-grid,
   .timeline-grid {
     grid-template-columns: 1fr;
