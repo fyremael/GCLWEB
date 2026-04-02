@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
+  <title id="title">Grand Challenge Technologies brand mark</title>
+  <desc id="desc">Three sweeping gold arcs around a central gold sphere.</desc>
+  <defs>
+    <linearGradient id="ring" x1="18%" y1="18%" x2="86%" y2="84%">
+      <stop offset="0%" stop-color="#f6d98a"/>
+      <stop offset="42%" stop-color="#d39a34"/>
+      <stop offset="100%" stop-color="#8b5614"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="38%" cy="34%" r="68%">
+      <stop offset="0%" stop-color="#fde7a9"/>
+      <stop offset="36%" stop-color="#e0aa44"/>
+      <stop offset="100%" stop-color="#8a5512"/>
+    </radialGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#cf9732" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <g fill="none" stroke="url(#ring)" stroke-linecap="round">
+    <circle cx="160" cy="98" r="112" stroke-width="11" stroke-dasharray="536 224" transform="rotate(25 160 98)"/>
+    <circle cx="158" cy="130" r="76" stroke-width="10" stroke-dasharray="352 138" transform="rotate(42 158 130)"/>
+    <circle cx="164" cy="155" r="46" stroke-width="8" stroke-dasharray="198 88" transform="rotate(60 164 155)"/>
+  </g>
+
+  <circle cx="170" cy="158" r="34" fill="url(#orb)" filter="url(#glow)"/>
+</svg>
