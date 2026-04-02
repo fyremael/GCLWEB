@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Grand Challenge Labs symbol</title>
+  <desc id="desc">Abstract intersecting orbital geometry in dark blue linework.</desc>
+  <g fill="none" stroke="#203746" stroke-linecap="round">
+    <circle cx="30" cy="28" r="10" stroke-width="3.4"/>
+    <circle cx="30" cy="28" r="22" stroke-width="3.1"/>
+    <circle cx="30" cy="28" r="40" stroke-width="2.8"/>
+    <circle cx="83" cy="82" r="9" stroke-width="3.2"/>
+    <circle cx="83" cy="82" r="21" stroke-width="2.9"/>
+    <circle cx="83" cy="82" r="39" stroke-width="2.7"/>
+    <circle cx="54" cy="58" r="51" stroke-width="4.1" stroke-dasharray="240 90" transform="rotate(22 54 58)"/>
+    <path d="M4 54 116 6" stroke-width="3.1"/>
+    <path d="M40 4 78 116" stroke-width="2.7"/>
+  </g>
+</svg>
